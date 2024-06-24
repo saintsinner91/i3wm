@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install necessary packages
-sudo pacman -S nvidia nvidia-utils nvidia-libgl arandr sddm polkit-gnome picom dunst feh brave kitty google-chrome ranger i3lock dmenu
+sudo pacman -S nvidia nvidia-utils nvidia-libgl arandr sddm polkit-gnome picom dunst feh brave kitty google-chrome ranger i3lock dmenu polybar
 
 # Enable SDDM service
 sudo systemctl enable sddm
